@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="screen, projection"/>
+
+      <!-- li-scroller -->
+      <link type="text/css" rel="stylesheet" href="css/li-scroller.css"/>
+        <link rel="stylesheet" href="bx-slider/jquery.bxslider.min.js">
+      <link rel="stylesheet" href="css/page_home.css">
+
+      <title>+Defoot - Welcome</title>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav class="nav-extended z-depth-4">
+            <div class="nav-wrapper">
+              <div class="row" style="margin-bottom: 0px;">
+                <div class="col m3 s6" id="defoot-logo">
+                    <a href="home.html" class="brand-logo"><img src="defoot_logo/rsz_logo1.png" alt="defoot logo"></a>
+                </div>
+                <div class="col m3 offset-m4 s12" id="social-follow">
+                    <span class="right">
+                        <a href="#"><img src="images/social/fb.png" alt=""></a>
+                        <a href=""><img src="images/social/tw.png" alt=""></a>
+                        <a href=""><img src="images/social/gp.png" alt=""></a>
+                        <a href=""><img src="images/social/insta.png" alt=""></a>
+                    </span>
+                </div>
+                <div class="col s12 m2" id="searchbar">
+                  <form>
+                    <div class="input-field">
+                      <input id="search" type="search" placeholder="search..." required>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              
+              <a href="#" data-activates="mobile-content" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="cameroun-dd" data-beloworigin="true" data-hover="true">CAMEROUN<i class="material-icons right">arrow_drop_down</i></a>
+                      <ul class="dropdown-content" id="cameroun-dd">
+                        <li><a href="Views/actualite.html">Actualite</a></li>
+                        <li><a href="Views/Elite1_Home.html">MTN Elite One</a></li>
+                        <li><a href="#">MTN Elite Two</a></li>
+                        <li><a href="Views/coupe-du-cam_actualite.html">Coupe du Cameroun</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="afrique-dd" data-beloworigin="true" data-hover="true">AFRIQUE<i class="material-icons right">arrow_drop_down</i></a>
+                      <ul class="dropdown-content" id="afrique-dd">
+                        <li><a href="Views/Afrique-LigueDesChampions.html">Ligue des Champions</a></li>
+                        <li><a href="confederations_cup.html">Coupes de Confederation</a></li>
+                        <li><a href="#">CHAN</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="monde-dd" data-beloworigin="true" data-hover="true">MONDE<i class="material-icons right">arrow_drop_down</i></a>
+                      <ul class="dropdown-content" id="monde-dd">
+                        <li><a href="../Views/nolions.html">Nos Lions</a></li>
+                        <li><a href="#">Ligue des Champions</a></li>
+                        <li><a href="#">Europa Ligue</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="edc-dd" data-beloworigin="true" data-hover="true">EDC<i class="material-icons right">arrow_drop_down</i></a>
+                      <ul class="dropdown-content" id="edc-dd">
+                        <li><a href="Views/edc-masculine.html">Masculine</a></li>
+                        <li><a href="#">Feminine</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="competitions-dd" data-beloworigin="true" data-hover="true">COMPETITIONS<i class="material-icons right">arrow_drop_down</i></a>
+                      <ul class="dropdown-content" id="competitions-dd">
+                        <li><a href="Views/coupedumonde.html">Coupe du Monde</a></li>
+                        <li><a href="Views/CAN.html">CAN</a></li>
+                        <li><a href="Views/confederations_cup.html">Confederations Cup</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="Views/can219.html">CAN 2019</a>
+                    </li>
+                    <li>
+                        <a href="Views/live.html" class="">+DEFOOT LIVE</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-content">
+                    <div class="nav-wrapper yellow darken-2">
+                      <a href="#" class="brand-logo center">DEFOOT</a>
+                    </div>
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="mobile-cameroun" data-beloworigin="true"><i class="material-icons">chevron_right</i>CAMEROUN</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-button" data-activates="mobile-afrique" data-beloworigin="true"><i class="material-icons">chevron_right</i>AFRIQUE</a>
+                    </li>
+                    <li><a href="#" class="dropdown-button" data-activates="mobile-monde" data-beloworigin="true"><i class="material-icons">chevron_right</i>MONDE</a></li>
+                    <li><a href="#" class="dropdown-button" data-activates="mobile-edc" data-beloworigin="true"><i class="material-icons">chevron_right</i>EDC</a></li>
+                    <li><a href="#" class="dropdown-button" data-activates="mobile-competitions" data-beloworigin="true"><i class="material-icons">chevron_right</i>COMPETITIONS</a></li>
+                    <li><a href="Views/can219.html" >CAN 2019</a></li>
+                    <li><a href="Views/live.html"><span class="red-text">+</span></a><span class="feeds-time">LIVE</span></li>
+                </ul>
+
+                <ul class="dropdown-content" id="mobile-cameroun">
+                    <li><a href="#">Actualite</a></li>
+                    <li><a href="#">MTN Elite One</a></li>
+                    <li><a href="#">MTN Elite Two</a></li>
+                    <li><a href="#">Coupe du Cameroun</a></li>
+                </ul>
+                <ul class="dropdown-content" id="mobile-afrique">
+                  <li><a href="#">Ligue des Champions</a></li>
+                  <li><a href="#">Coupes de Confederation</a></li>
+                  <li><a href="#">CHAN</a></li>
+                </ul>
+                <ul class="dropdown-content" id="mobile-monde">
+                  <li><a href="#">Nos Lions</a></li>
+                  <li><a href="#">Ligue des Champions</a></li>
+                  <li><a href="#">Europa Ligue</a></li>
+                </ul>
+                <ul class="dropdown-content" id="mobile-edc">
+                  <li><a href="#">Masculine</a></li>
+                  <li><a href="#">Feminine</a></li>
+                </ul>
+                <ul class="dropdown-content" id="mobile-competitions">
+                  <li><a href="#">Coupe du Monde</a></li>
+                  <li><a href="#">CAN</a></li>
+                  <li><a href="#">Confederations Cup</a></li>
+                </ul>
+            </div>
+        </nav> <!-- end of navbar -->
+        <div class="container">
+          <div class="row news-ticker">
+            <!-- li-scroller demo -->
+            <div class="col s12">
+                <ul id="ticker01">
+                  <li><span>10/10/2007</span><a href="#">The first thing ...</a></li>
+                  <li><span>10/10/2007</span><a href="#">End up doing is ...</a></li>
+                  <li><span>10/10/2007</span><a href="#">The code that you ...</a></li>
+                  <!-- eccetera -->
+              </ul>
+            </div> <!-- end of ticker slider -->
+          </div>
+        </div> 
+
+        <!-- main body content -->
+        <main class="container body-section z-depth-1">
+            <div class="advert-field">
+            </div>
+            <div class="row home-tabs">
+                <div class="col s12 m3">
+                    <a href="Views/profile237_Home.html" class="hoverable">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pibh/profile237.png" alt="profil +237">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col s12 m3">
+                    <a href="Views/entretien-home.html" class="hoverable">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pibh/interview2.png" alt="Entretien">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col s12 m3">
+                    <a href="Views/blog.html" class="hoverable">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pibh/blog.jpg" alt="Blog">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col s12 m3">
+                    <a href="Views/unephoto.html" class="hoverable">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pibh/history2.png" alt="Une photo Une Histoire">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 80px;">
+                <div class="col l8 s12 main-content">
+                    <div class="article-body z-depth-0">
+                        <div class="featured-article"> 
+                            <img src="images/cam-6.png" class="responsive-img" alt="featured image"/>
+                            <div class="content-overlay">
+                                <a href="#">
+                                    <h6 class="caption-heading">Title of article</h6>
+                                </a>
+                            </div>
+                            <span class="a-la-une amber">A LA UNE</span>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="Views/article.html">
+                                            <img src="images/cam-6.png">
+                                        </a>
+                                        <a href="Views/article.html" class="card-title content-overlay">Portugal | Aboubakar parti pour rester au FC Porto ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/neymar.jpg">
+                                        <a href="#" class="card-title content-overlay">Title of article
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/neymar.jpg">
+                                        <a href="#" class="card-title content-overlay">Article Title</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"  id="hm-cards2">
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/adidas_ad.jpg" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">Title of article</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/adidas_ad.jpg" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">lorem ipsum balh adfja;sdfj fasdf fjafd adfjadsfd fdf</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/adidas_ad.jpg" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">Title of article lorem ipsum balh adfja;sdfj fasdf fjafd adfjadsfd fdf</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/neymar.jpg" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">lorem ipsum balh adfja;sdfj fasdf fjafd adfjadsfd fdf</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/cam-6.png" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">Title of article lorem ipsum balh adfja;sdfj fasdf fjafd adfjadsfd fdf</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/neymar.jpg" alt="article"/> 
+                                    </div>
+                                    <div class="card-content">
+                                        <a href="#">lorem ipsum balh adfja;sdfj fasdf fjafd adfjadsfd fdf</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider" id="vslider">
+                            <div class="slide">
+                                <div class="card-panel grey lighten-5 z-depth-1">
+                                    <div class="row mb-0">
+                                        <div class="col s12 m3">
+                                            <img src="images/cam-6.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                                        </div>
+                                        <div class="col s12 m9 art-text">
+                                            <span class="black-text">
+                                                <p><span class="feeds-time">PORTUGAL</span></p>
+                                                <a href="#!">Portugal | Aboubakar parti pour rester au FC Porto ?</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="card-panel grey lighten-5 z-depth-1">
+                                    <div class="row mb-0">
+                                        <div class="col s12 m3">
+                                            <img src="images/cam-5.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                                        </div>
+                                        <div class="col s12 m9 art-text">
+                                            <span class="black-text">
+                                                <p>ALLEMAGNE | AMICAL</p>
+                                                <a href="#!">Franck Evina signe un double en amical avec le Bayern Munich</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="card-panel grey lighten-5 z-depth-1">
+                                    <div class="row mb-0">
+                                        <div class="col s12 m3">
+                                            <img src="images/cam-5.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                                        </div>
+                                        <div class="col s12 m9 art-text">
+                                            <span class="black-text">
+                                                <p>ALLEMAGNE | AMICAL</p>
+                                                <a href="#!">Franck Evina signe un double en amical avec le Bayern Munich</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="card-panel grey lighten-5 z-depth-1">
+                                    <div class="row mb-0">
+                                        <div class="col s12 m3">
+                                            <img src="images/cam-5.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                                        </div>
+                                        <div class="col s12 m9 art-text">
+                                            <span class="black-text">
+                                                <p>ALLEMAGNE | AMICAL</p>
+                                                <a href="#!">Franck Evina signe un double en amical avec le Bayern Munich</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- side content -->
+                <div class="col l4 hide-on-med-and-down side-content">
+                    <ul class="collection with-header z-depth-1">
+                        <li class="collection-header"><h6 class="center white-text">D'INFOS FOOT</h6></li>
+                        <li class="collection-item">
+                            <div  class="truncate"><span class="feeds-time">18:00 </span><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel nobis incidunt asperiores consequuntur ipsam iusto sed ut dolore quae rem aliquam excepturi dignissimos, illo veritatis modi atque hic. Exercitationem?</a></div>
+                        </li>
+                        <li class="collection-item">
+                            <div><span class="feeds-time">18:00 </span><a href="#">News feed here</a></div>
+                        </li>
+                        <li class="collection-item">
+                            <div><span class="feeds-time">18:00 </span><a href="#">News feed here</a></div>
+                        </li>
+                        <li class="collection-item">
+                            <div><span class="feeds-time">18:00 </span><a href="#">News feed here</a></div>
+                        </li>
+                        <li class="collection-item">
+                            <div><span class="feeds-time">18:00 </span><a href="#">News feed here</a></div>
+                        </li>
+                        <li class="collection-item">
+                            <div><span class="feeds-time">18:00 </span><a href="#">News feed here</a></div>
+                        </li>
+                        <li class="center collection-item">
+                        <ul class="pagination">
+                            <li class="active"><a href="#!">1</a></li>
+                            <li class="waves-effect"><a href="#!">2</a></li>
+                            <li class="waves-effect"><a href="#!">3</a></li>                        
+                        </ul>
+                        </li>
+                    </ul>
+                    <!-- advert field -->
+                    <div class="card" style="display: none;">
+                        <div class="card-image">
+                            <img src="images/ad1.jpg" alt="advert">
+                        </div>
+                    </div>
+                    <!-- survey -->
+                    <div class="card survey">
+                        <div class="card-title">+DEFOOT SURVEY</div>
+                        <div class="card-content" id="choice-survey">
+                            <p class="motion">"Tourisme: la France peut mieux faire, l'accueil des visiteurs etrangers laisse encore  a desirer"</p>
+                            <form action="#" class="opinion">
+                                <p>
+                                    <input name="group1" type="radio" id="test1" />
+                                    <label for="test1">D'ACCORD <i class="tiny material-icons right yes">check</i></label>
+                                </p>
+                                <p>
+                                    <input name="group2" type="radio" id="test2" />
+                                    <label for="test2">PAS D'ACCORD <i class="tiny material-icons right no">close</i></label>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- facebook -->
+                    <div class="card">
+                        <div class="card-title">+DEFOOT FACEBOOK</div>
+                        <div class="card-content fb">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpdefooot%2F&tabs&width=250&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                    <!-- twitter -->
+                    <div class="card">
+                        <div class="card-title">+DEFOOT TWEETS</div>
+                        <div class="card-content tw">
+                            <a class="twitter-timeline" data-height="300" href="https://twitter.com/pdefooot">Tweets by pdefooot</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main> <!-- end of main body content -->
+
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col m4 s12">
+                <h6><a>CAMEROUN</a></h6>
+                <ul>
+                  <li><a href="#!">Ligue 1</a></li>
+                  <li><a href="#!">Ligue 2</a></li>
+                  <li><a href="#!">Coupe du CAmeroun</a></li>
+                </ul>
+                <br>
+                <h6><a href="#">AFRIQUE</a></h6>
+                <ul>
+                  <li><a href="#!">Ligue des Champions</a></li>
+                  <li><a href="#!">Coupe des Confederations</a></li>
+                </ul>
+                <br>
+                <h6><a>EQUIPE DU CAMEROUN</a></h6>
+                <ul>
+                  <li><a href="#!">Masculine</a></li>
+                  <li><a href="#!">Feminine</a></li>
+                </ul>
+                <br>
+                <h6><a>COMPETITIONS</a></h6>
+                <ul>
+                  <li><a href="#">Coupe du Monde</a></li>
+                  <li><a href="#">Coupe d'Afrique des Nations</a></li>
+                  <li><a href="#">Coupe des Confederations</a></li>
+                </ul>
+              </div>
+              <div class="col m4 s12">
+                <h6><a href="#">PROFIL 237</a></h6>
+                <h6><a href="#">ENTRETIEN</a></h6>
+                <h6><a href="#"></a></h6>
+                <br/>
+                <h6><a href="#">CONTACT</a></h6>
+                <h6><a href="#">NOTRE REDACTION</a></h6>
+              </div>
+              <div class="col m4 s12">
+                <a href="home.html" class="brand-logo"><img src="defoot_logo/rsz_logo1.png" alt="defoot logo"></a>
+                <p class="grey-text text-lighten-4">Suivez-nous egalement sur</p>
+
+                <ul class="valign-wrapper social-icons center">
+                  <li class="circle-1 valign facebook"><a href="https://www.facebook.com/pdefooot" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="circle-1 valign twitter"><a href="https://twitter.com/pdefooot"  target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="circle-1 valign youtube"><a href="#"  target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="circle-1 valign instagram"><a href="https://www.instagram.com/pdefooot/"  target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <div class="right">
+               © +DEFOOT <small> ajDevelopers</small>
+            </div>
+            <strong><a class="grey-text text-lighten-4 left" href="#!"><span class="green-text">+</span><span class="red-text">DE</span><span class="yellow-text">FOOT</span> - <span class="small">La vitrine du football au Cameroun</span></a></strong>
+            </div>
+          </div>
+        </footer>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/li-scroller.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="bx-slider/jquery.bxslider.min.js"></script>      
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script>
+        // li-scroller
+        $(function(){
+            $("ul#ticker01").liScroll();
+        });
+      </script>
+    </body>
+  </html>

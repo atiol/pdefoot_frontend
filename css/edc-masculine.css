@@ -1,0 +1,74 @@
+#msc-effectifs .card-panel > img {
+    display: block;
+    margin: 0 auto;
+    max-height: 80px;
+}
+#msc-actualite .row {
+    padding: 0;
+    margin: 0;
+}
+#msc-actualite .featured-article {
+    min-height: 277px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+#msc-effectifs section {
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+    margin: 0;
+}
+.player-box {
+    position: relative;
+    padding: 10px;
+    border: 2px solid green;
+    height: auto;
+}
+#cam_logo {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.prochain-match {
+    padding: 10px;
+    position: relative;
+    display: table;
+}
+.prochain-match img{
+    width: 20%;
+    height: auto;
+}
+.img-profile img{
+    width: 65% !important;
+}
+.img-profile .card-image {
+    padding-left: 0 !important;
+}
+#msc-effectifs .card {
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.position p {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Forme */
+#msc-forme td {
+    padding: 5px 5px;
+}
+.position span {
+    background-color: #1C262B;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+/* mobile responsive css */
+@media only screen and (max-width: 767px)
+{
+    #msc-forme .card-content {
+        display: table;
+        margin: 0 auto;
+    }
+}

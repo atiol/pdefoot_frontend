@@ -1,0 +1,31 @@
+.interview-img-wrapper {
+    width: 40%;
+    height: auto;
+    margin: 15px 30px 15px 15px;
+    overflow: hidden;
+    border-right: 8px solid red;
+}
+p.question {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    color: #d32f2f;
+}
+.question::before {
+    content : "Qn: ";
+}
+.question::before, .answer::before {
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: bold;
+}
+p.answer {
+    font-size: 15px;
+}
+.answer::before {
+    content: "Ans: ";
+}
+.interview-text .card {
+    border-left: 10px solid #0091EA;
+    display: flex;
+}

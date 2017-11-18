@@ -1,0 +1,13 @@
+div.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% !important;
+    overflow: hidden;
+    background-color: #eee;
+    background-image: url(../images/Ben_M_profile.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: -20px;
+    margin: 0 auto;
+}

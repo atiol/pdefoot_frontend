@@ -1,0 +1,36 @@
+
+#e1-results form {
+    margin-top: -6px;
+}
+#e1-results nav {
+    background-color: yellowgreen;
+    height: 40px;
+    line-height: 40px;
+}
+#e1-results .col {
+    padding: 0;
+}
+#e1-results td {
+    padding: 5px 5px;
+}
+a.bx-next, a.bx-prev {
+    margin-top: -15px;
+}
+a.bx-next {
+    margin-right: -50px;
+}
+a.bx-prev {
+    margin-left: -50px;
+}
+/* For Mobile display */
+@media only screen and (max-width: 767px) {
+    #e1-results .card-content {
+        display: table;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .results-data .card {
+        margin-top: 20px;
+    }
+}

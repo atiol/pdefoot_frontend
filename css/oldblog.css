@@ -1,0 +1,68 @@
+.container {
+    width: 90%;
+}
+.card .card-content {
+    padding: 10px;
+}
+.authors-list-wrapper .card-content a {
+    color: #949494;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 0.2;
+}
+.authors-list-wrapper .card-content a:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+.blog-articles .card-title {
+    color: #26a69a;
+    cursor: pointer;
+}
+.blog-articles .card-title:hover {
+    color: #30d0d0;
+}
+.card-stacked .card-title {
+    padding-top: 50px;
+}
+.blog-articles .card-action {
+    padding: 3px 0;
+}
+.fb {
+    color: #4267b2;
+}
+.tw {
+    color: #48AAE6;
+}
+.blog-title {
+    background-color: #1C262B;
+    color: white;
+    padding: 5px 15px;
+}
+.blog-articles .card {
+   border-left: 4px solid #26a69a;
+   border-right: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+}
+.author-profile-wrapper {
+    padding: 50px 15px;
+}
+.author-profile-wrapper .card-title {
+    font-weight: 400;
+    font-size: 32px;
+    color: teal;
+}
+@media only screen and (max-width: 767px)
+{
+    .authors-list-wrapper {
+        margin-top: 20px;
+    }
+    .card .card-content {
+        padding: 2px;
+    }
+}
+@media only screen and (min-width: 768px)
+{
+    .authors-list-wrapper {
+        margin-top: 30px;
+    }
+}

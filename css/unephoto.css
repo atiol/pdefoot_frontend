@@ -1,0 +1,21 @@
+
+/* Mobile and extra small devices*/
+@media only screen and (max-width: 767px) {
+
+}
+/* Mobile + Ipad */
+@media only screen and (max-width: 991px) {
+    
+}
+/* Ipad + Desktop and above */
+@media only screen and (min-width: 768px) {
+    #unephoto .card .card-image img {
+        min-height: 200px;
+    }
+}
+/* Desktop and above */
+@media only screen and (min-width: 992px) {
+    .card .card-image img {
+        min-height: 160px;
+    }  
+}
